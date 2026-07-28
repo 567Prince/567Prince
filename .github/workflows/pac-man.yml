@@ -1,0 +1,22 @@
+name: Generate Pac-Man Animation
+
+on:
+  schedule:
+    - cron: "0 6 * * *"  # Runs daily at 6 AM
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Generate Pac-Man Animation
+        uses: michaelkolesidis/pac-man-gh-action@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: 567Prince
+          REPO: 567Prince
+          BRANCH: output
+          COMMIT_MESSAGE: "chore: update pac-man animation"
