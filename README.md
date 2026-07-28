@@ -32,7 +32,7 @@
 
 ### 📍 Quick Info
 - 🏠 **Location:** India  
-- 📧 **Email:** prince.kumar@email.com  
+- 📧 **Email:** princeadmin01@gmail.com  
 - 🎮 **Hobbies:** Trading, Gaming, Reading  
 - 🤝 **Open to:** Collaborations & Internships  
 - 🚀 **Motto:** Learn, Grow, Succeed!
